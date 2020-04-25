@@ -23,8 +23,8 @@ public class CustomLinkedList<E> implements List<E> {
     }
 
     @Override
-    public void add(int index, E element) {
-
+    public boolean add(E e) {
+        return false;
     }
 
     @Override
@@ -62,8 +62,8 @@ public class CustomLinkedList<E> implements List<E> {
     }
 
     @Override
-    public boolean add(E e) {
-        return false;
+    public void add(int index, E element) {
+
     }
 
     @Override
